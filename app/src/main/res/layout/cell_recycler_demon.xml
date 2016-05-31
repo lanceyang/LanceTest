@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lance.lancetest.widget.SameWHFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp">
+    <ImageView
+        android:id="@+id/test_im"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/test_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66000000"
+        android:textSize="10sp"
+        android:textColor="@android:color/white"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="0"
+        android:layout_gravity="bottom"
+        android:padding="1dp"/>
+
+</com.lance.lancetest.widget.SameWHFrameLayout>

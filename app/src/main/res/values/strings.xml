@@ -1,0 +1,3 @@
+<resources>
+    <string name="connect_error_hint">网络连接错误</string>
+</resources>
